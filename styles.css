@@ -1,0 +1,208 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-size: 16px;
+}
+
+#layout{
+    width: 50%;
+    height: auto;
+    background-color: white;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+img{
+    margin: 10px auto;
+    border-radius: 8px;
+    width: 95%;
+    display: block;
+}
+
+h1{
+    font-family: serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 10px auto;  
+    padding: 0 2%;
+}
+
+p{
+   font-family: sans-serif; 
+   font-size: 16px;
+   font-weight: 400;
+   margin: 10px auto; 
+   padding: 0 2%;
+   
+}
+
+#preparation-time h3, ul, ol{
+    font-size: 13px;
+    margin-left: 35px;
+    margin-top: 28px;
+    font-family: sans-serif;
+
+}
+
+#preparation-time h3{
+    color: purple;
+    font-size: 15px;
+}
+
+ul, ol{
+    list-style-position: outside;
+    padding-left: 3%;
+     
+}
+
+ul li{
+    padding-left: 10px;
+
+}
+
+#un-ord, #preparation-time{
+    padding-left: 0;
+}
+
+ol{ 
+    font-family: sans-serif;
+    font-size: 14px;
+    list-style-type: rgb(134, 32, 32);
+
+}
+
+li::marker{
+    color: rgb(134, 32, 32);
+    font-weight: bolder;
+    font-style: sans-serif;
+}
+
+ol li{
+    padding-left: 12px;
+}
+
+
+
+#preparation-time{
+    background-color: rgb(252, 208, 216);
+    border-radius: 8px;
+    width: 95%;
+    margin-left: 15px;
+    padding-top: 0.1px;
+    padding-bottom: 1px;
+}
+
+.info{
+    font-size: 23px;
+    font-family: serif;
+    margin: 10px auto; 
+    color: rgb(134, 32, 32);
+    padding: 0 2%;
+    
+
+}
+
+.info p{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+table{
+    font-family: serif;
+    border-spacing: 25px;
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0 auto;
+
+}
+
+td{
+    padding-left: 4%;
+    /* border-bottom: 1px solid rgb(185, 184, 184); */
+    
+}
+
+
+
+.measure{
+    padding-left: 30px;
+    color: rgb(134, 32, 32);
+    font-weight: 900;
+    
+}
+
+.divider{
+    width: 100%;
+    max-width: 100%;
+}
+
+.divider-line{
+    width: 100%;
+    border: none;
+    border-top: 1px solid grey;
+    margin: 10px auto;
+}
+
+@media screen and (max-width: 1024px){
+
+    
+    #layout{
+        width: 90%;
+        overflow: hidden;
+    }
+
+    .divider{
+        width: 90%;
+    }
+
+    table{
+        width: 95%;
+        
+    }
+
+    td{
+        padding-left: 10px;
+    }
+
+    .measure{
+        padding-left: 50px;
+    }  
+
+    .divider-line{
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width: 480px){
+    #layout{
+        width: 100%;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    table{
+        width: 100%;
+        font-size: 12px;
+    }
+
+    td{
+        padding-left: 5px;
+    }
+
+    .measure{
+        padding-left: 20px;
+    }
+
+    .divider-line{
+        width: 80%;
+    }
+
+
+}
+
+
